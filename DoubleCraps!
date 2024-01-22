@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script id="script" src="myScript.js"></script> 
+</head>
+<body 
+style="background-color: black;">
+
+<h1 
+style="text-align: center; 
+font-family: Elephant;
+font-size: 60px;
+color:#ff33cc;">Lets Play Double Craps!</h1>
+
+<p style="text-align: center;
+color: white;
+font-family: Elephant;">
+
+   1. Roll the dice
+    <br> 
+   2. Add them
+   <br>
+   3. Roll Craps (7 or 11) You Win!
+   <br>
+   4. Doubles Automatically Wins! Anything else, You Lose!
+</p>
+
+    <br>
+    <button onclick="myFunction()" type="button" 
+    style="width: 150px; 
+    height: 75px; 
+    margin-left: 44%; 
+    background-color:#ff33cc; 
+    cursor: pointer; 
+    font-size: 20px;
+    font-family:Elephant; 
+    border: 3px solid white; 
+    border-radius: 35px;"> SHOOT! </button>
+    <br>
+ 
+    <p style="text-align: center; font-family: Elephant; font-size: 25px; color: white">Die 1</p>
+    <p id="1" style="text-align: center; font-family: Elephant; font-size: 25px; color: lime"></p>  
+    
+    <p style="text-align: center; font-family: Elephant; font-size: 25px; color: white">Die 2</p>
+    <p id="2" style="text-align: center; font-family: Elephant; font-size: 25px; color: lime"></p>
+
+    <p id="equals" style="text-align: center; font-family: Elephant; font-size: 25px; color: white">=</p>
+    <p id="results" style="text-align: center; font-family: Elephant; font-size: 25px; color: lime;">...</p>
+    <br>
+        
+</body>
+</html>
